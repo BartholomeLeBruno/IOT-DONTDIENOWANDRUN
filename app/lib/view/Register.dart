@@ -1,4 +1,4 @@
-import 'package:app/view/Home.dart';
+import 'package:app/view/ConnectToAPP.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -116,7 +116,7 @@ class _RegisterState extends State<Register> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => Home()));
+                                    builder: (context) => ConnectToApp()));
                           }
                         },
                       ),
