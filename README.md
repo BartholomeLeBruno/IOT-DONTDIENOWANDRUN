@@ -41,21 +41,23 @@ All the code is available in this repository, folder `app`.
 
 ## :art: TinkerCad modeling
 The TinkerCad modeling can be accessed on this [link](https://www.tinkercad.com/things/jK6SQg8SGpy-smashing-jarv/editel?sharecode=iQTb7cqvDhjBPXpZf3uuodtSexlGJFPdbsY2lHX28s8).
-`insert tinkercad modeling screenshot`
+![TinkerCad model](resources/tinkercad_model.png "TinkerCad model")
 
 ## :fuelpump: How it works
 
 ### Values and calculations
 #### Color variation
 The colors of the bracelet depend on the user's PPM.
-Here is the data range that we have set up:
-`insert color range, don't forget to translate the headers in english`
+Here is the color range that we have set up:
+
+![Color range](resources/ppm_colors.png "PPM Colors")
+
 #### Alarm
 The alarm is triggered when the PPM are deemed dangerous for the user, depending on their age.
 We used the Haskell & Fox calculation (1970) : there is a little imprecision with this model but we also do not need a very precise result in our use case. In addition, the formula is not very complex and this facilitates implementation.
 A push button can be pressed to stop the alarm.
 
-`insert maximum heart beat chart`
+![PPM chart](resources/ppm_chart.png "PPM Chart")
 
 ### Arduino code explanation
 The code is fully commented for better comprehension! Check it in the folder `insert arduino code folder` of this repository.
