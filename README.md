@@ -17,17 +17,19 @@ A mobile application allows the user to create an account and enter its age. It 
 ### Hardware
 #### IOT
 
-|        Component        | Quantity | Reference |
-| ----------------------- | -------- | --------- |
-| Arduino Uno R3          | 1        | Text      |
-| Bande 8 NeoPixels       | 2        | Text      |
-| Élément piézoélectrique | 2        | Text      |
-| Bouton poussoir         | 1        | Text      |
+|        Component        | Quantity |   Reference    |
+| ----------------------- | -------- | -------------  |
+| Arduino Uno             | 1        | R3             |
+| Bande 8 NeoPixels       | 2        | WS2812 5050    |
+| Piezoelectric speaker   | 2        | Murata 7BB-12-9|
+| Push button             | 2        |                |
+| Bluetooth card          | 1        | HC-05          |
+| Pulse sensor            | 1        | XD-58C         |
 
 #### Smartphone
 
-* Android smartphone: `enter min version`
-* Apple smartphone: `enter min version`
+* **Android**: minimum SDK version 16, target 28
+* **Apple**: iOS 8.0
 
 ### Software
 #### IOT
@@ -43,13 +45,27 @@ The TinkerCad modeling can be accessed on this [link](https://www.tinkercad.com/
 
 ## :fuelpump: How it works
 
+### Values and calculations
+#### Color variation
+The colors of the bracelet depend on the user's PPM.
+Here is the data range that we have set up:
+`insert color range, don't forget to translate the headers in english`
+#### Alarm
+The alarm is triggered when the PPM are deemed dangerous for the user, depending on their age.
+We used the Haskell & Fox calculation (1970) : there is a little imprecision with this model but we also do not need a very precise result in our use case. In addition, the formula is not very complex and this facilitates implementation.
+A push button can be pressed to stop the alarm.
 
+`insert maximum heart beat chart`
+
+### Arduino code explanation
+The code is fully commented for better comprehension! Check it in the folder `insert arduino code folder` of this repository.
 
 ## :arrows_clockwise: Usage
 `insert barto gif`
 1. **Setup the connected object** according to the TinkerCad modeling
-2. **Register** with an username, a password and your date of birth.
-3. **Sign in** with the username and password previously filled.
-4. **Activate bluetooth on the smartphone**
-5. **Pair with the connected object**
-6. You can now use your bracelet while doing sporting activities and view reports on your smartphone!
+2. **Turn on the connected object** by pressing the first push button (on/off)
+3. **Register** with an username, a password and your date of birth
+4. **Sign in** with the username and password previously filled
+5. **Activate bluetooth on the smartphone**
+6. **Pair with the connected object**
+7. You can now use your bracelet while doing sporting activities and view reports on your smartphone!
