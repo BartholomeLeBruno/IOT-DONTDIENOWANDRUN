@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
                   Text(
                     "DONTDIENOWANDRUN",
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 40, color: Colors.white),
+                    style: TextStyle(fontSize: 35, color: Colors.white),
                   ),
                   SizedBox(
                     height: 45,
