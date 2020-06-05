@@ -12,6 +12,13 @@ The bracelet has several LEDs changing color depending on the user's heartbeat: 
 
 A mobile application allows the user to create an account and enter its age. It also allows to view reports on the cardiac activity.
 
+## :rainbow: Design 
+
+![3D Design](resources/design_3d.gif "3D Design")
+
+We have chosen two push buttons and indicative texts of fairly large sizes to facilitate use and optimize ergonomics.
+The LEDs are arranged over the entire surface of the bracelet in order to give a very visual account of cardiac activity.
+
 ## :wrench: Technical requirements
 
 ### Hardware
@@ -63,7 +70,7 @@ A push button can be pressed to stop the alarm.
 The code is fully commented for better comprehension! Check it in the folder `insert arduino code folder` of this repository.
 
 ## :arrows_clockwise: Usage
-`insert barto gif`
+
 1. **Setup the connected object** according to the TinkerCad modeling
 2. **Turn on the connected object** by pressing the first push button (on/off)
 3. **Register** with an username, a password and your date of birth
@@ -71,3 +78,5 @@ The code is fully commented for better comprehension! Check it in the folder `in
 5. **Activate bluetooth on the smartphone**
 6. **Pair with the connected object**
 7. You can now use your bracelet while doing sporting activities and view reports on your smartphone!
+
+![Mobile app](resources/mobile-app.gif "Mobile app")
