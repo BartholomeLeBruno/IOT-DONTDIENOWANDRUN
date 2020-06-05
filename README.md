@@ -41,7 +41,7 @@ The LEDs are arranged over the entire surface of the bracelet in order to give a
 ### Software
 #### IOT
 The IOT software was developed and tested in the TinkerCad editor.
-All the code is available in this repository, folder `enter folder name here`.
+All the code is available in this repository, folder `arduino-code`.
 #### Smartphone
 The mobile application is available on Apple and IOS. It was developed with Flutter.
 All the code is available in this repository, folder `app`.
@@ -67,7 +67,7 @@ A push button can be pressed to stop the alarm.
 ![PPM chart](resources/ppm_chart.png "PPM Chart")
 
 ### Arduino code explanation
-The code is fully commented for better comprehension! Check it in the folder `insert arduino code folder` of this repository.
+The code is fully commented for better comprehension! Check it in the folder `arduino-code` of this repository.
 
 ## :arrows_clockwise: Usage
 
