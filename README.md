@@ -26,12 +26,13 @@ The LEDs are arranged over the entire surface of the bracelet in order to give a
 
 |        Component        | Quantity |   Reference    |
 | ----------------------- | -------- | -------------  |
-| Arduino Uno             | 1        | R3             |
+| Arduino                 | 1        | Nano             |
 | Bande 8 NeoPixels       | 2        | WS2812 5050    |
 | Piezoelectric speaker   | 2        | Murata 7BB-12-9|
 | Push button             | 2        |                |
 | Bluetooth card          | 1        | HC-05          |
 | Pulse sensor            | 1        | XD-58C         |
+| Lipo 1800mAh battery    | 1        |          |
 
 #### Smartphone
 
