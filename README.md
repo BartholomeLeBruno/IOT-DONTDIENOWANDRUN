@@ -47,7 +47,7 @@ The mobile application is available on Apple and IOS. It was developed with Flut
 All the code is available in this repository, folder `app`.
 
 ## :art: TinkerCad modeling
-The TinkerCad modeling can be accessed on this [link](https://www.tinkercad.com/things/jK6SQg8SGpy-smashing-jarv/editel?sharecode=iQTb7cqvDhjBPXpZf3uuodtSexlGJFPdbsY2lHX28s8).
+The TinkerCad modeling can be accessed on this [link]().
 ![TinkerCad model](resources/tinkercad_model.png "TinkerCad model")
 
 ## :fuelpump: How it works
